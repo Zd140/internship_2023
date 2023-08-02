@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    padding-top: 35px;
+    height: 50px;
+    background-color: rgba(10, 37, 88, 0.5);
+}
+
+.logo{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+float: left;
+margin-left: 30px;
+}
+ul{
+    display: block;
+}
+li{
+    text-decoration: none;
+    display: block;
+}
+li a{
+    float: right;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.first-logo{
+background-color: rgba(255, 255, 255, 1);
+font-size: 40px;
+font-family: serif;
+border-radius: 5px;
+font: bold;
+color: rgba(10, 17, 11, 0.5);
+}
+.second-logo{
+font-size: 30px;
+font-family: serif;
+color: rgba(255, 255, 255, 1);
+}
+
+i{
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+}
+i:hover{
+    color: rgba(10, 37, 88, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+}
+/*title{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(10, 37, 88, 0.5);
+}*/
+
+.info{
+    margin-top: 60px;
+    width: 100%;
+    height: 350px;
+    
+}
+img{
+    box-shadow:10px 10px 10px 10px  rgba(10, 17, 11, 0.5);
+    width: 50%;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+.con1{
+    width: 50%; 
+    float: left;
+}
+.con2{
+    /*width: 50%;*/
+    display: flex;
+}
+.con2 .heading{
+    padding-top: 25px;
+    font-size: 20px;
+    padding-left: 25px;
+    
+    padding-bottom: 25px;
+    font-weight: bold;
+    text-shadow: 100px;
+}
+h1{
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+}
+button{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(10, 37, 88, 0.5);
+    box-shadow:5px rgba(10, 17, 11, 0.5) inset;
+    border: none;
+}
+
+.icon a{
+    text-decoration: none;
+    padding-left:12.5px ;
+    padding-right: 12.5px;
+    font-size: 20px;
+    color: rgba(10, 37, 88, 0.5);
+    height: 30px;
+}
+
+.icon a:hover{
+    color: white;
+    background: rgba(10, 37, 88, 0.5);
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.resume{
+    width: 100%;
+    background-color: rgba(243, 221, 221, 0.842);
+    margin-top: 70px;
+    height: 425px;
+}
+.head{
+    font-size: 50px;
+    color: rgba(37, 81, 161, 0.726);
+    margin-left:45%;
+}
+.resume1{
+    margin: 25px;
+}
+
+.section-1{
+    width: 25%;
+   
+    display: flex;
+    background-color: white;
+    padding:15px;
+    float: left;
+    font-size:16px;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    font-size:19px;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+.section-2{
+    width: 25%;
+    margin-left:60px;
+    display: flex;
+    background-color: white;
+    padding:15px;
+    float: left;
+    font-size:19px;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    border-radius: 6px;
+}
+.section-3{
+    width: 25%;
+    display: flex;
+    background-color: white;
+    padding:15px;
+    font-size:19px;
+    float: left;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    border-radius: 6px;
+    margin-left: 50px;
+}
+.view{
+    margin-top: 20px;
+    margin-left:40% ;
+}
+.projects{
+    width: 100%;
+    background-color: rgba(243, 221, 221, 0.842);
+    margin-top: 70px;
+    height:450px;
+}
+.head{
+    font-size: 50px;
+    color: rgba(37, 81, 161, 0.726);
+    margin-left:45%;
+}
+.resume1{
+    margin: 25px;
+}
+
+.section-1{
+    width: 25%;
+   
+    display: flex;
+    background-color: white;
+    padding:15px;
+    float: left;
+    font-size:16px;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    font-size:19px;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+.section-2{
+    width: 25%;
+    margin-left:60px;
+    display: flex;
+    background-color: white;
+    padding:15px;
+    float: left;
+    font-size:19px;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    border-radius: 6px;
+}
+.section-3{
+    width: 25%;
+    display: flex;
+    background-color: white;
+    padding:15px;
+    font-size:19px;
+    float: left;
+    box-shadow:1px 1px 1px 1px rgba(10, 17, 11, 0.5);
+    border-radius: 6px;
+    margin-left: 50px;
+}
+.view{
+    margin-top: 15px;
+    margin-left:40% ;
+}
+section-1 .pic1{
+    width: 25%;
+}
+
+.contact-c{
+font-size: 100px;
+color: rgba(37, 81, 161, 0.726);
+background-color: rgba(255, 255, 255, 1);
+border-radius: 5px;
+}
+contact-o{
+    font-size: 50px;
+
+}
+label{
+    font-size: 25px;
+}
+input{
+    width:500px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(10, 17, 11, 0.5);
+    border-radius: 3px;
+    background-color: rgba(151, 145, 145, 0.726);
+}
+textarea{
+    width:500px;
+    height: 80px;
+    border: none;
+    border-bottom: 1px solid rgba(10, 17, 11, 0.5);
+    border-radius: 3px;
+    background-color: rgba(151, 145, 145, 0.726);
+}
+.icon-2 a{
+    text-decoration: none;
+    padding-left:30px ;
+    padding-right: 12.5px;
+    font-size: 20px;
+    color: rgba(10, 37, 88, 0.5);
+    height: 30px;
+}
+
+h3{
+    font-size: 30px;
+    color: rgba(10, 17, 11, 0.5);
+    margin-left: 15px;
+
+}
