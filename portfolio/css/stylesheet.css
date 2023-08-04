@@ -11,13 +11,13 @@
 }
 
 header{
-    background-color: var(--color-2);
+    background-color: rgba(0, 0, 0, 0.678);
     font-family:Verdana ;
 }
 .logo1{
 background-color: var(--color-4);
 font-size: 40px;
-color: var(--color-2);
+color: rgba(39, 36, 36, 0.678);
 border-radius: 5px;
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -46,8 +46,8 @@ a{
     padding: 0 25px;
 }
 .nav-menu .nav-item:hover{
-    transition: 0.7s;
-    background-color: white;
+    background-color: var(--color-4);
+    transition: 0.9s;
     border-radius: 5px;
 }
 
@@ -73,7 +73,7 @@ li a{
     transition: 0.1s;
 }
 .nav-link:hover{
-    color: var(--color-2);
+    color: rgba(39, 36, 36, 0.678);
 }
 .hamburger{
     display: none;
@@ -107,7 +107,7 @@ li a{
             top: 70px;
             gap: 0;
             flex-direction: column;
-            background-color: var(--color-2);
+            background-color:rgba(39, 36, 36, 0.678);
             width: 100%;
             text-align: center;
             transition: 0.5s;
@@ -121,20 +121,22 @@ li a{
         }
 }
 
-.home{
-    background-color: rgba(0, 0, 0, 0.1);
-}
-/*.part1{
-    float: left;
-}*/
-.image{
-    width: 30%;
-    padding: 30px 15px 15px 15px;
-}
-.story{
+.home_page{
+    margin-top: 15px;
+    border: 1px solid black;
+    width: 100%;
     display: flex;
+    margin-top: 15px;
+}
+.main_pic{
+    border: 1px solid balck;
+    width: 50%;
+    background-color: #000000;
+}
+.img{
+    width: 50%;
+    margin: 40px 50px 0px 130px;
 }
 h1{
-    font-size: 60px;
-    margin-left: 300px;
+    position: absolute;
 }
