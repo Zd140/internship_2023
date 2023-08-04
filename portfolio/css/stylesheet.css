@@ -129,9 +129,8 @@ li a{
     margin-top: 15px;
 }
 .main_pic{
-    border: 1px solid balck;
     width: 50%;
-    background-color: #000000;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.678);
 }
 .img{
     width: 50%;
@@ -140,3 +139,4 @@ li a{
 h1{
     position: absolute;
 }
+.first_content{}
